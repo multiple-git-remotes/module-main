@@ -1,6 +1,7 @@
 package ua.in.sz.git.module;
 
 import ua.in.sz.git.module.a.ModuleA;
+import ua.in.sz.git.module.a.ModuleARefactor;
 import ua.in.sz.git.module.b.ModuleB;
 
 public class App {
@@ -10,5 +11,7 @@ public class App {
         ModuleA.exec();
 
         ModuleB.exec();
+
+        ModuleARefactor.exec();
     }
 }
